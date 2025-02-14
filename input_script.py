@@ -200,6 +200,16 @@ def main():
     for result in results:
       result_datas.extend(result[0])
       result_errors.extend(result[1])
+    
+    result_errors = sorted(result_errors, key=lambda x: x['rowNumber'])
+
+    with open("error_report.csv", "w", newline="") as file:
+      writer = csv.writer(file)
+      writer.writerow(["row_number", "error_description"])
+      for error in result_errors:
+        writer.writerow([error["rowNumber"], error["errorDescription"]])
+
+
     print(f"No of datas: {len(result_datas)}")
     print(f"No of errors: {len(result_errors)}")
 
