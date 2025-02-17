@@ -3,6 +3,7 @@ import multiprocessing as mp
 import re
 import numpy as np
 import datetime
+import requests
 
 class CostumerData:
   def __init__(self, data):
@@ -20,7 +21,8 @@ class CostumerData:
       'preferredCategory': self.validate_preferred_category,
       'churned': self.validate_churned,
       'totalSpending': self.validate_total_spending,
-      'averageOrderValue': self.validate_average_order_value
+      'averageOrderValue': self.validate_average_order_value,
+      'frequency': self.validate_frequency
     }
 
     try:
@@ -32,14 +34,15 @@ class CostumerData:
             dates = self.validate_dates(row[index], row[index + 1])
             self.data[data_cols[index]] = dates[0]
             self.data[data_cols[index + 1]] = dates[1]
+            print(self.data[data_cols[index]], self.data[data_cols[index + 1]])
             index += 1
           else:
             self.data[data_cols[index]] = row[index]
         else:
           self.data[data_cols[index]] = ""
           self.return_error(f"{data_cols[index]} is empty")
-    except:
-      print(row)
+    except Exception as e:
+      print(f"{e} {row}")
     for err in self.errors:
       print(f"Row: {err['rowNumber']}, Error: {err['errorDescription']}")
     
@@ -48,6 +51,13 @@ class CostumerData:
       return int(float(age))
     except:
       self.return_error(f"Age is not valid")
+      return ""
+    
+  def validate_frequency(self, frequency):
+    try:
+      return float(frequency)
+    except:
+      self.return_error(f"Frequency is not valid")
       return ""
 
   def validate_email(self, email):
@@ -123,32 +133,37 @@ class CostumerData:
         continue
     is_joined_at_date_valid = joined_at_date is not None
     is_last_purchase_date_valid = last_purchase_date is not None
+    last_purchase_datetime = None
+    joined_at_datetime = None
     if (not is_joined_at_date_valid):
       self.return_error(f"Joined at date is not valid")
       joined_at_date = ""
+    else:
+      joined_at_datetime = datetime.datetime.strptime(joined_at_date, "%Y-%m-%d")
+      if (joined_at_datetime.year > 2025):
+        self.return_error(f"Joined at date is in the future")
+        joined_at_date = ""
+      elif (joined_at_datetime.year < 2000):
+        self.return_error(f"Joined at date is before 2000")
+        joined_at_date = ""
+
     if (not is_last_purchase_date_valid):
       self.return_error(f"Last purchase date is not valid")
       last_purchase_date = ""
-    if (is_joined_at_date_valid and is_last_purchase_date_valid):
-      joined_at_datetime = datetime.datetime.strptime(joined_at_date, "%Y-%m-%d")
+    else:
       last_purchase_datetime = datetime.datetime.strptime(last_purchase_date, "%Y-%m-%d")
+      if (last_purchase_datetime.year > 2025):
+        self.return_error(f"Last purchase date is in the future")
+        last_purchase_date = ""
+      elif (last_purchase_datetime.year < 2000):
+        self.return_error(f"Last purchase date is before 2000")
+        last_purchase_date = ""
+
+    if (joined_at_datetime is not None and last_purchase_datetime is not None):
       if (joined_at_datetime > last_purchase_datetime):
         self.return_error(f"Last purchase date is earlier than join date")
         joined_at_date = ""
         last_purchase_date = ""
-      else:
-        if (joined_at_datetime.year > 2025):
-          self.return_error(f"Joined at date is in the future")
-          joined_at_date = ""
-        elif (joined_at_datetime.year < 2000):
-          self.return_error(f"Joined at date is before 2000")
-          joined_at_date = ""
-        if (last_purchase_datetime.year > 2025):
-          self.return_error(f"Last purchase date is in the future")
-          last_purchase_date = ""
-        elif (last_purchase_datetime.year < 2000):
-          self.return_error(f"Last purchase date is before 2000")
-          last_purchase_date = ""
     return [joined_at_date, last_purchase_date]
 
   def validate_total_spending(self, total_spending):
@@ -177,6 +192,20 @@ def validate_and_transform_data(line_chunks):
     errors.extend(data.errors)
   return results, errors
 
+def post_data(datas):
+  url = "http://localhost:3000/customers"
+  for data in datas:
+    response = requests.post(url, json=data, timeout=50000)
+  print(response.status_code)
+
+def write_errors(errors):
+  result_errors = sorted(errors, key=lambda x: x['rowNumber'])
+  with open("error_report.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["row_number", "error_description"])
+    for error in result_errors:
+      writer.writerow([error["rowNumber"], error["errorDescription"]])
+
 def main():
   cores = mp.cpu_count()
   with open("customers.csv", "r") as file:
@@ -201,13 +230,7 @@ def main():
       result_datas.extend(result[0])
       result_errors.extend(result[1])
     
-    result_errors = sorted(result_errors, key=lambda x: x['rowNumber'])
-
-    with open("error_report.csv", "w", newline="") as file:
-      writer = csv.writer(file)
-      writer.writerow(["row_number", "error_description"])
-      for error in result_errors:
-        writer.writerow([error["rowNumber"], error["errorDescription"]])
+    post_data(result_datas)
 
 
     print(f"No of datas: {len(result_datas)}")
