@@ -3,7 +3,8 @@ import multiprocessing as mp
 import re
 import numpy as np
 import datetime
-import requests
+import urllib.request
+import json
 
 class CostumerData:
   def __init__(self, data):
@@ -11,7 +12,7 @@ class CostumerData:
     row = data[:len(data) - 1]
     self.errors = []
     self.data = {}
-    data_cols = ['id', 'firstName', 'lastName', 'age', 'gender', 'postalCode', 'email', 'phone', 'membership', 'joinedAt', 'lastPurchase', 'totalSpending', 'averageOrderValue', 'frequency', 'preferredCategory', 'churned']
+    data_cols = ['id', 'firstName', 'lastName', 'age', 'gender', 'postalCode', 'email', 'phone', 'membership', 'joinedAt', 'totalSpending', 'averageOrderValue', 'frequency', 'preferredCategory', 'churned']
     data_cols_validations = {
       'age': self.validate_age,
       'gender': self.validate_gender,
@@ -27,14 +28,13 @@ class CostumerData:
 
     try:
       for index in range(len(row) - 1):
-        if (row[index] != ''):
+        if (row[index] != '' or index == 9):
           if (data_cols[index] in data_cols_validations and index != 9):
             self.data[data_cols[index]] = data_cols_validations[data_cols[index]](row[index])
           elif (index == 9):
             dates = self.validate_dates(row[index], row[index + 1])
             self.data[data_cols[index]] = dates[0]
-            self.data[data_cols[index + 1]] = dates[1]
-            print(self.data[data_cols[index]], self.data[data_cols[index + 1]])
+            self.data['lastPurchase'] = dates[1]
             index += 1
           else:
             self.data[data_cols[index]] = row[index]
@@ -45,6 +45,9 @@ class CostumerData:
       print(f"{e} {row}")
     for err in self.errors:
       print(f"Row: {err['rowNumber']}, Error: {err['errorDescription']}")
+    
+    print(f"Before {self.data['id']}: {row[9]}, {row[10]}")
+    print(f"After {self.data['id']}: {self.data['joinedAt']}, {self.data['lastPurchase']}")
     
   def validate_age(self, age):
     try:
@@ -138,6 +141,8 @@ class CostumerData:
     if (not is_joined_at_date_valid):
       self.return_error(f"Joined at date is not valid")
       joined_at_date = ""
+      last_purchase_date = ""
+      return [joined_at_date, last_purchase_date]
     else:
       joined_at_datetime = datetime.datetime.strptime(joined_at_date, "%Y-%m-%d")
       if (joined_at_datetime.year > 2025):
@@ -195,8 +200,15 @@ def validate_and_transform_data(line_chunks):
 def post_data(datas):
   url = "http://localhost:3000/customers"
   for data in datas:
-    response = requests.post(url, json=data, timeout=50000)
-  print(response.status_code)
+    req = urllib.request.Request(url, 
+                               data=json.dumps(data).encode('utf-8'),
+                               headers={'Content-Type': 'application/json'},
+                               method='POST')
+    try:
+      with urllib.request.urlopen(req, timeout=50000) as response:
+        status = response.status
+    except Exception as e:
+      print(f"POST error: {e}")
 
 def write_errors(errors):
   result_errors = sorted(errors, key=lambda x: x['rowNumber'])
@@ -229,9 +241,8 @@ def main():
     for result in results:
       result_datas.extend(result[0])
       result_errors.extend(result[1])
-    
-    post_data(result_datas)
 
+    post_data(result_datas)
 
     print(f"No of datas: {len(result_datas)}")
     print(f"No of errors: {len(result_errors)}")
