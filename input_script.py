@@ -12,7 +12,7 @@ class CostumerData:
     row = data[:len(data) - 1]
     self.errors = []
     self.data = {}
-    data_cols = ['id', 'firstName', 'lastName', 'age', 'gender', 'postalCode', 'email', 'phone', 'membership', 'joinedAt', 'totalSpending', 'averageOrderValue', 'frequency', 'preferredCategory', 'churned']
+    data_cols = ['id', 'firstName', 'lastName', 'age', 'gender', 'postalCode', 'email', 'phone', 'membership', 'joinedAt', 'lastPurchase', 'totalSpending', 'averageOrderValue', 'frequency', 'preferredCategory', 'churned']
     data_cols_validations = {
       'age': self.validate_age,
       'gender': self.validate_gender,
@@ -27,7 +27,8 @@ class CostumerData:
     }
 
     try:
-      for index in range(len(row) - 1):
+      index = 0
+      while index < len(row):
         if (row[index] != '' or index == 9):
           if (data_cols[index] in data_cols_validations and index != 9):
             self.data[data_cols[index]] = data_cols_validations[data_cols[index]](row[index])
@@ -41,13 +42,11 @@ class CostumerData:
         else:
           self.data[data_cols[index]] = ""
           self.return_error(f"{data_cols[index]} is empty")
+        index += 1
     except Exception as e:
       print(f"{e} {row}")
     for err in self.errors:
       print(f"Row: {err['rowNumber']}, Error: {err['errorDescription']}")
-    
-    print(f"Before {self.data['id']}: {row[9]}, {row[10]}")
-    print(f"After {self.data['id']}: {self.data['joinedAt']}, {self.data['lastPurchase']}")
     
   def validate_age(self, age):
     try:
@@ -112,9 +111,9 @@ class CostumerData:
   
   def validate_churned(self, churned):
     if (churned in ["Y", "yes", "1"]):
-      return "true"
+      return True
     if (churned in ["N", "no", "0"]):
-      return "false"
+      return False
     self.return_error(f"Churned is not valid")
     return ""
 

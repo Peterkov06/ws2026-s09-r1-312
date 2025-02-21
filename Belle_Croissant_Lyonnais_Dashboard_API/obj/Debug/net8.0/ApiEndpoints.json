@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "Belle_Croissant_Lyonnais_Dashboard_API.Controllers.DashboardController",
+    "Method": "GetDemographics",
+    "RelativePath": "api/demographics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Belle_Croissant_Lyonnais_Dashboard_API.Models.DemographicsModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Belle_Croissant_Lyonnais_Dashboard_API.Controllers.DashboardController",
+    "Method": "GetOverviewMetrics",
+    "RelativePath": "api/overviewmetrics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Belle_Croissant_Lyonnais_Dashboard_API.Models.OverViewMetricsModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Belle_Croissant_Lyonnais_Dashboard_API.Controllers.DashboardController",
+    "Method": "GetPurchaseBehavior",
+    "RelativePath": "api/purchasebehavior",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Belle_Croissant_Lyonnais_Dashboard_API.Models.PurchaseBehaviorModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Belle_Croissant_Lyonnais_Dashboard_API.Controllers.DashboardController",
+    "Method": "YearlyTrends",
+    "RelativePath": "api/trendsovertime",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Belle_Croissant_Lyonnais_Dashboard_API.Models.YearlyTrendModel[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

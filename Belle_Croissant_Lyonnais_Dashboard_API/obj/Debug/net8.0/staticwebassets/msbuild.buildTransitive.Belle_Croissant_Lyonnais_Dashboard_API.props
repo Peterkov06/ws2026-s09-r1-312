@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Belle_Croissant_Lyonnais_Dashboard_API.props" />
+</Project>

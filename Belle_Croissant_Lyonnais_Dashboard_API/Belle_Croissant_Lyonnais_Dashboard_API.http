@@ -1,0 +1,6 @@
+@Belle_Croissant_Lyonnais_Dashboard_API_HostAddress = http://localhost:5016
+
+GET {{Belle_Croissant_Lyonnais_Dashboard_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
