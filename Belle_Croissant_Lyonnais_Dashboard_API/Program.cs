@@ -1,4 +1,6 @@
 
+using System.Net;
+
 namespace Belle_Croissant_Lyonnais_Dashboard_API
 {
     public class Program
@@ -7,17 +9,32 @@ namespace Belle_Croissant_Lyonnais_Dashboard_API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            builder.Services.Configure<ForwardedHeadersOptions>(options =>
+            {
+                options.KnownProxies.Add(IPAddress.Parse("127.0.0.1"));
+            });
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    policy =>
+                    {
+                        policy.WithOrigins("http://localhost:5174", 
+                                         "http://127.0.0.1:5174", "http://localhost:5173", "http://127.0.0.1:5173")  
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
 
             builder.Services.AddControllers();
             builder.Services.AddHttpClient();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            app.UseCors();
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

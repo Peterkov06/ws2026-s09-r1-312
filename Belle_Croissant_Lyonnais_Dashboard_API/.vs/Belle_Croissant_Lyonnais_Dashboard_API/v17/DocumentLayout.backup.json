@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\",
+  "WorkspaceRootPath": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\yearlytrendmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\yearlytrendmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\purchasebehaviormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\purchasebehaviormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\demographicsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\demographicsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\overviewmetricsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\overviewmetricsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\kov\u00E1cs p\u00E9ter\\documents\\mechwart\\12.oszt\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\belle_croissant_lyonnais_dashboard_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\purchasebehaviormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\purchasebehaviormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\yearlytrendmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\yearlytrendmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\demographicsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\demographicsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\overviewmetricsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\overviewmetricsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|c:\\users\\peter\\documents\\mechwart\\2024_25\\worldskills\\ws2026-s09-r1-312\\belle_croissant_lyonnais_dashboard_api\\belle_croissant_lyonnais_dashboard_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5424404A-7B50-475F-A6E4-CA13DDBF24DE}|Belle_Croissant_Lyonnais_Dashboard_API.csproj|solutionrelative:belle_croissant_lyonnais_dashboard_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -42,96 +42,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "YearlyTrendModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\YearlyTrendModel.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\YearlyTrendModel.cs",
               "RelativeDocumentMoniker": "Models\\YearlyTrendModel.cs",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\YearlyTrendModel.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\YearlyTrendModel.cs",
               "RelativeToolTip": "Models\\YearlyTrendModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T12:23:43.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T12:23:43.594Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PurchaseBehaviorModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\PurchaseBehaviorModel.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\PurchaseBehaviorModel.cs",
               "RelativeDocumentMoniker": "Models\\PurchaseBehaviorModel.cs",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\PurchaseBehaviorModel.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\PurchaseBehaviorModel.cs",
               "RelativeToolTip": "Models\\PurchaseBehaviorModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:32:41.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T11:32:41.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DemographicsModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\DemographicsModel.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\DemographicsModel.cs",
               "RelativeDocumentMoniker": "Models\\DemographicsModel.cs",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\DemographicsModel.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\DemographicsModel.cs",
               "RelativeToolTip": "Models\\DemographicsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T11:03:39.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OverViewMetricsModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\OverViewMetricsModel.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\OverViewMetricsModel.cs",
               "RelativeDocumentMoniker": "Models\\OverViewMetricsModel.cs",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\OverViewMetricsModel.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\OverViewMetricsModel.cs",
               "RelativeToolTip": "Models\\OverViewMetricsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T10:06:12.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Program.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:11:52.713Z"
+              "WhenOpened": "2025-02-18T10:11:52.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Controllers\\DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAQwH8AAAByAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:58:12.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CustomerModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\CustomerModel.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\CustomerModel.cs",
               "RelativeDocumentMoniker": "Models\\CustomerModel.cs",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\CustomerModel.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Models\\CustomerModel.cs",
               "RelativeToolTip": "Models\\CustomerModel.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:44:04.5Z"
             },
@@ -139,9 +134,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Belle_Croissant_Lyonnais_Dashboard_API.csproj",
-              "DocumentMoniker": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
               "RelativeDocumentMoniker": "Belle_Croissant_Lyonnais_Dashboard_API.csproj",
-              "ToolTip": "C:\\Users\\Kov\u00E1cs P\u00E9ter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
+              "ToolTip": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
               "RelativeToolTip": "Belle_Croissant_Lyonnais_Dashboard_API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

@@ -32,3 +32,37 @@ C:\Users\Kovács Péter\Documents\Mechwart\12.oszt\WORLDSKILLS\ws2026-s09-r1-312
 C:\Users\Kovács Péter\Documents\Mechwart\12.oszt\WORLDSKILLS\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.genruntimeconfig.cache
 C:\Users\Kovács Péter\Documents\Mechwart\12.oszt\WORLDSKILLS\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\ref\Belle_Croissant_Lyonnais_Dashboard_API.dll
 C:\Users\Kovács Péter\Documents\Mechwart\12.oszt\WORLDSKILLS\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\appsettings.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.exe
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.deps.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.runtimeconfig.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.pdb
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.AssemblyInfoInputs.cache
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.AssemblyInfo.cs
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.csproj.CoreCompileInputs.cache
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.sourcelink.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\staticwebassets\msbuild.Belle_Croissant_Lyonnais_Dashboard_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\staticwebassets\msbuild.build.Belle_Croissant_Lyonnais_Dashboard_API.props
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Belle_Croissant_Lyonnais_Dashboard_API.props
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Belle_Croissant_Lyonnais_Dashboard_API.props
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\scopedcss\bundle\Belle_Croissant_Lyonnais_Dashboard_API.styles.css
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Cr.9C9A6B80.Up2Date
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\refint\Belle_Croissant_Lyonnais_Dashboard_API.dll
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.pdb
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\Belle_Croissant_Lyonnais_Dashboard_API.genruntimeconfig.cache
+C:\Users\peter\Documents\Mechwart\2024_25\Worldskills\ws2026-s09-r1-312\Belle_Croissant_Lyonnais_Dashboard_API\obj\Debug\net8.0\ref\Belle_Croissant_Lyonnais_Dashboard_API.dll

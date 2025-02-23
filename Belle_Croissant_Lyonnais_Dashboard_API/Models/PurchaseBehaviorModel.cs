@@ -2,7 +2,7 @@
 {
     public class PurchaseBehaviorModel
     {
-        public required string[] MostPurchasedCategories { get; set; }
+        public required Dictionary<string, int> MostPurchasedCategories { get; set; }
         public required Customer[] TopSpenders { get; set; }
     }
 }

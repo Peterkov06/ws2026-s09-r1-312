@@ -4,7 +4,8 @@ using Newtonsoft.Json;
 
 namespace Belle_Croissant_Lyonnais_Dashboard_API.Controllers
 {
-    [Route("api")]
+    [Route("api/" +
+        "")]
     [ApiController]
     public class DashboardController: ControllerBase
     {
@@ -81,7 +82,7 @@ namespace Belle_Croissant_Lyonnais_Dashboard_API.Controllers
         }
 
         [HttpGet("demographics")]
-        public async Task<DemographicsModel> GetDemographics()
+        public async Task<Dictionary<string, int>[]> GetDemographics()
         {
             int maleNum = 0;
             int femaleNum = 0;
@@ -97,22 +98,30 @@ namespace Belle_Croissant_Lyonnais_Dashboard_API.Controllers
                 silverCategoryNum = customers.Where(cust => cust.Membership == "silver").Count();
                 goldCategoryNum = customers.Where(cust => cust.Membership == "gold").Count();
             }
-            return new DemographicsModel { BronzeCategoryNum = bronzeCategoryNum, SilverCategoryNum = silverCategoryNum, GoldCategoryNum = goldCategoryNum, MaleNum = maleNum, FemaleNum = femaleNum };
+            return [
+                new Dictionary<string, int>{
+                    {"Male", maleNum},
+                    {"Female", femaleNum}
+                },
+                new Dictionary<string, int>{
+                    {"Bronz", bronzeCategoryNum},
+                    {"Silver", silverCategoryNum},
+                    {"Gold", goldCategoryNum}
+                },
+            ];
         }
 
         [HttpGet("purchasebehavior")]
         public async Task<PurchaseBehaviorModel> GetPurchaseBehavior()
         {
-            string[] mostPurchasedCategories = new string[10];
+            Dictionary<string, int> mostPurchasedCategories = [];
             Customer[] topSpenders = new Customer[10];
             var customers = await GetCustomers();
             if (customers != null)
             {
                 mostPurchasedCategories = customers.Where(c => c.PreferredCategory != "").GroupBy(c => c.PreferredCategory)
                     .OrderByDescending(g => g.Count())
-                    .Select(g => g.Key)
-                    .Take(10)
-                    .ToArray();
+                    .Take(10).ToDictionary(x => x.Key, x => x.Count());
                 topSpenders = customers.OrderByDescending(c => c.TotalSpending).Take(10).ToArray();
             }
             return new PurchaseBehaviorModel { MostPurchasedCategories = mostPurchasedCategories, TopSpenders = topSpenders };

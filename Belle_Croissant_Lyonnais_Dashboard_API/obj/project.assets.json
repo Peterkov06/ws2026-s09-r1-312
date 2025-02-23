@@ -560,23 +560,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kovács Péter\\.nuget\\packages\\": {},
+    "C:\\Users\\peter\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kovács Péter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
+      "projectUniqueName": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
       "projectName": "Belle_Croissant_Lyonnais_Dashboard_API",
-      "projectPath": "C:\\Users\\Kovács Péter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
-      "packagesPath": "C:\\Users\\Kovács Péter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kovács Péter\\Documents\\Mechwart\\12.oszt\\WORLDSKILLS\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\obj\\",
+      "projectPath": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\Belle_Croissant_Lyonnais_Dashboard_API.csproj",
+      "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peter\\Documents\\Mechwart\\2024_25\\Worldskills\\ws2026-s09-r1-312\\Belle_Croissant_Lyonnais_Dashboard_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kovács Péter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
