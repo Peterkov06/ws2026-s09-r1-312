@@ -1,6 +1,6 @@
 # ws2026-s09-r1-312
 ## Showcase video
-(once youtube decides that the video is not containing violance)
+https://vimeo.com/1060147919/ee659724ed?ts=0&share=copy
 ## How to start the app
 1. Clone this repo
 2. Have Docker desktop installed
