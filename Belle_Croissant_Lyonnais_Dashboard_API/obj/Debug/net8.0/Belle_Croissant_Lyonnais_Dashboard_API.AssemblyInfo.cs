@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Belle_Croissant_Lyonnais_Dashboard_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d61ae563836ca191087f71586874ab1b7a1c82f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+652459a7e709c8b66f37db239241646ce6915194")]
 [assembly: System.Reflection.AssemblyProductAttribute("Belle_Croissant_Lyonnais_Dashboard_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Belle_Croissant_Lyonnais_Dashboard_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
