@@ -1,0 +1,1806 @@
+row_number,error_description
+2,Gender format is not valid
+2,Joined at date is in the future
+2,Last purchase date is before 2000
+2,Last purchase date is earlier than join date
+2,Churned is not valid
+3,phone is empty
+3,Joined at date is in the future
+3,Last purchase date is before 2000
+3,Last purchase date is earlier than join date
+3,Churned is not valid
+4,Last purchase date is not valid
+4,Churned is not valid
+5,Joined at date is in the future
+5,Last purchase date is earlier than join date
+5,Churned is not valid
+6,Churned is not valid
+7,Last purchase date is in the future
+7,Churned is not valid
+8,Joined at date is not valid
+8,Churned is not valid
+9,Churned is not valid
+10,Churned is not valid
+11,Phone number length is not valid
+11,Last purchase date is in the future
+11,Churned is not valid
+12,Churned is not valid
+13,Joined at date is not valid
+13,Churned is not valid
+14,Joined at date is not valid
+14,Churned is not valid
+15,Joined at date is before 2000
+15,Churned is not valid
+16,Last purchase date is earlier than join date
+16,Churned is not valid
+17,Last purchase date is earlier than join date
+17,Churned is not valid
+18,Joined at date is in the future
+18,Last purchase date is earlier than join date
+18,Churned is not valid
+19,Phone number length is not valid
+19,Joined at date is not valid
+19,Churned is not valid
+20,Last purchase date is before 2000
+20,Last purchase date is earlier than join date
+20,Churned is not valid
+21,Churned is not valid
+22,Last purchase date is earlier than join date
+22,Churned is not valid
+23,Last purchase date is in the future
+23,Churned is not valid
+24,age is empty
+24,Churned is not valid
+25,Joined at date is before 2000
+25,preferredCategory is empty
+25,Churned is not valid
+26,Joined at date is not valid
+26,Churned is not valid
+27,Joined at date is in the future
+27,Last purchase date is not valid
+27,Churned is not valid
+28,gender is empty
+28,Joined at date is in the future
+28,Last purchase date is earlier than join date
+28,Churned is not valid
+29,Churned is not valid
+30,Last purchase date is earlier than join date
+30,Churned is not valid
+31,Last purchase date is before 2000
+31,Last purchase date is earlier than join date
+31,Churned is not valid
+32,age is empty
+32,Joined at date is not valid
+32,Churned is not valid
+33,Last purchase date is not valid
+34,Gender format is not valid
+34,Churned is not valid
+35,Phone number length is not valid
+35,Last purchase date is not valid
+35,Churned is not valid
+36,Last purchase date is not valid
+36,Churned is not valid
+37,Joined at date is in the future
+37,Last purchase date is before 2000
+37,Last purchase date is earlier than join date
+37,Churned is not valid
+38,Gender format is not valid
+38,Last purchase date is not valid
+38,Churned is not valid
+39,Last purchase date is earlier than join date
+39,Churned is not valid
+40,Joined at date is not valid
+40,Churned is not valid
+41,phone is empty
+41,Joined at date is not valid
+41,Churned is not valid
+42,Last purchase date is earlier than join date
+42,Churned is not valid
+43,age is empty
+43,Last purchase date is in the future
+43,Churned is not valid
+45,Joined at date is not valid
+45,Churned is not valid
+46,Last purchase date is before 2000
+46,Last purchase date is earlier than join date
+46,Churned is not valid
+47,Joined at date is in the future
+47,Last purchase date is earlier than join date
+47,Churned is not valid
+48,Phone number length is not valid
+48,Joined at date is before 2000
+48,Churned is not valid
+49,Last purchase date is in the future
+49,Churned is not valid
+50,Churned is not valid
+51,Churned is not valid
+52,Phone number length is not valid
+52,Churned is not valid
+53,Joined at date is in the future
+53,Last purchase date is earlier than join date
+53,Churned is not valid
+54,age is empty
+54,Joined at date is before 2000
+54,Churned is not valid
+55,Joined at date is not valid
+55,Churned is not valid
+56,age is empty
+56,Churned is not valid
+57,Joined at date is in the future
+57,Last purchase date is earlier than join date
+57,Churned is not valid
+58,Joined at date is in the future
+58,Last purchase date is not valid
+58,Churned is not valid
+59,Last purchase date is earlier than join date
+59,Churned is not valid
+60,Gender format is not valid
+60,Churned is not valid
+61,Joined at date is not valid
+61,Churned is not valid
+62,age is empty
+62,Joined at date is not valid
+62,Churned is not valid
+63,Churned is not valid
+64,Churned is not valid
+65,Last purchase date is before 2000
+65,Last purchase date is earlier than join date
+65,Churned is not valid
+66,Last purchase date is earlier than join date
+66,Churned is not valid
+67,Last purchase date is before 2000
+67,Last purchase date is earlier than join date
+67,Churned is not valid
+68,Churned is not valid
+69,Joined at date is before 2000
+69,Churned is not valid
+70,age is empty
+70,Churned is not valid
+71,Last purchase date is not valid
+71,Churned is not valid
+72,Joined at date is in the future
+72,Last purchase date is earlier than join date
+72,Churned is not valid
+73,Last purchase date is earlier than join date
+73,Churned is not valid
+74,Churned is not valid
+75,Churned is not valid
+76,Last purchase date is not valid
+76,Churned is not valid
+77,Churned is not valid
+78,Joined at date is before 2000
+78,Last purchase date is in the future
+78,Churned is not valid
+79,Churned is not valid
+80,Phone number length is not valid
+80,Last purchase date is in the future
+80,Churned is not valid
+81,Last purchase date is earlier than join date
+81,Churned is not valid
+82,Joined at date is before 2000
+82,Last purchase date is in the future
+82,Churned is not valid
+83,age is empty
+83,Churned is not valid
+84,Last purchase date is before 2000
+84,Last purchase date is earlier than join date
+84,Churned is not valid
+85,Churned is not valid
+86,gender is empty
+87,gender is empty
+87,Churned is not valid
+88,Last purchase date is in the future
+88,Churned is not valid
+89,Phone number length is not valid
+89,Last purchase date is earlier than join date
+89,Churned is not valid
+90,Churned is not valid
+91,Joined at date is in the future
+91,Last purchase date is earlier than join date
+91,Churned is not valid
+92,Joined at date is not valid
+92,Churned is not valid
+93,Joined at date is not valid
+93,Churned is not valid
+94,Last purchase date is not valid
+94,Churned is not valid
+95,Last purchase date is not valid
+95,preferredCategory is empty
+95,Churned is not valid
+96,Joined at date is before 2000
+96,Last purchase date is not valid
+96,Churned is not valid
+97,Joined at date is in the future
+97,Last purchase date is not valid
+97,Churned is not valid
+98,Joined at date is before 2000
+98,Last purchase date is not valid
+98,Churned is not valid
+99,Joined at date is in the future
+99,Last purchase date is not valid
+99,Churned is not valid
+100,age is empty
+100,Churned is not valid
+101,Joined at date is in the future
+101,Last purchase date is before 2000
+101,Last purchase date is earlier than join date
+101,Churned is not valid
+102,Joined at date is not valid
+102,Churned is not valid
+103,phone is empty
+103,Churned is not valid
+104,Joined at date is not valid
+104,Churned is not valid
+105,Churned is not valid
+106,Joined at date is not valid
+106,Churned is not valid
+107,age is empty
+107,gender is empty
+107,Last purchase date is before 2000
+107,Last purchase date is earlier than join date
+107,Churned is not valid
+108,Joined at date is not valid
+108,Churned is not valid
+109,Churned is not valid
+110,Joined at date is before 2000
+110,Last purchase date is not valid
+110,Churned is not valid
+111,Joined at date is not valid
+111,Churned is not valid
+112,gender is empty
+112,Churned is not valid
+113,Last purchase date is earlier than join date
+113,Churned is not valid
+114,age is empty
+114,Churned is not valid
+115,Churned is not valid
+116,Joined at date is in the future
+116,Last purchase date is before 2000
+116,Last purchase date is earlier than join date
+116,Churned is not valid
+118,age is empty
+118,Last purchase date is not valid
+119,Churned is not valid
+120,Joined at date is not valid
+121,Churned is not valid
+122,Joined at date is not valid
+122,Churned is not valid
+123,Joined at date is in the future
+123,Last purchase date is earlier than join date
+123,Churned is not valid
+124,Joined at date is not valid
+124,Churned is not valid
+125,Joined at date is not valid
+125,Churned is not valid
+126,Churned is not valid
+127,age is empty
+127,gender is empty
+127,Joined at date is in the future
+127,Last purchase date is earlier than join date
+127,Churned is not valid
+128,Joined at date is in the future
+128,Last purchase date is earlier than join date
+128,Churned is not valid
+129,Churned is not valid
+130,Last purchase date is earlier than join date
+130,Churned is not valid
+131,Phone number length is not valid
+131,Last purchase date is earlier than join date
+131,Churned is not valid
+132,Churned is not valid
+133,Last purchase date is in the future
+133,Churned is not valid
+134,Churned is not valid
+135,Last purchase date is not valid
+135,Churned is not valid
+136,age is empty
+136,Last purchase date is not valid
+136,Churned is not valid
+137,Last purchase date is in the future
+137,Churned is not valid
+138,gender is empty
+138,Churned is not valid
+139,Last purchase date is earlier than join date
+139,Churned is not valid
+140,age is empty
+140,Last purchase date is not valid
+140,Churned is not valid
+141,Joined at date is not valid
+141,Churned is not valid
+142,Joined at date is before 2000
+142,Last purchase date is in the future
+142,Churned is not valid
+143,gender is empty
+143,Joined at date is in the future
+143,Last purchase date is not valid
+143,Churned is not valid
+144,gender is empty
+144,Churned is not valid
+145,Joined at date is in the future
+145,Last purchase date is earlier than join date
+145,Churned is not valid
+146,Last purchase date is before 2000
+146,Last purchase date is earlier than join date
+146,Churned is not valid
+147,age is empty
+147,Last purchase date is in the future
+147,Churned is not valid
+148,Last purchase date is before 2000
+148,Last purchase date is earlier than join date
+148,Churned is not valid
+149,Last purchase date is earlier than join date
+149,Churned is not valid
+150,age is empty
+150,Last purchase date is earlier than join date
+150,Churned is not valid
+151,Phone number length is not valid
+151,Last purchase date is earlier than join date
+151,preferredCategory is empty
+151,Churned is not valid
+152,Phone number length is not valid
+152,Last purchase date is in the future
+152,Churned is not valid
+153,Last purchase date is before 2000
+153,Last purchase date is earlier than join date
+153,Churned is not valid
+154,gender is empty
+154,Last purchase date is earlier than join date
+154,preferredCategory is empty
+154,Churned is not valid
+155,Last purchase date is in the future
+155,Churned is not valid
+156,Phone number length is not valid
+156,Joined at date is before 2000
+156,Last purchase date is not valid
+156,preferredCategory is empty
+156,Churned is not valid
+157,Joined at date is before 2000
+157,Last purchase date is not valid
+157,preferredCategory is empty
+158,age is empty
+158,Churned is not valid
+159,Phone number length is not valid
+159,Last purchase date is before 2000
+159,Last purchase date is earlier than join date
+159,Churned is not valid
+160,Last purchase date is not valid
+160,Churned is not valid
+161,Churned is not valid
+162,Churned is not valid
+163,Joined at date is in the future
+163,Last purchase date is not valid
+163,preferredCategory is empty
+163,Churned is not valid
+164,age is empty
+164,Last purchase date is not valid
+164,preferredCategory is empty
+165,Last purchase date is earlier than join date
+165,Churned is not valid
+166,Churned is not valid
+167,Last purchase date is before 2000
+167,Last purchase date is earlier than join date
+167,preferredCategory is empty
+167,Churned is not valid
+168,Last purchase date is earlier than join date
+168,preferredCategory is empty
+168,Churned is not valid
+169,Last purchase date is not valid
+170,phone is empty
+170,Last purchase date is in the future
+170,preferredCategory is empty
+170,Churned is not valid
+171,Joined at date is not valid
+171,preferredCategory is empty
+171,Churned is not valid
+172,Last purchase date is not valid
+172,Churned is not valid
+173,Joined at date is in the future
+173,Last purchase date is earlier than join date
+173,Churned is not valid
+174,Last purchase date is before 2000
+174,Last purchase date is earlier than join date
+174,preferredCategory is empty
+174,Churned is not valid
+175,age is empty
+175,Joined at date is in the future
+175,Last purchase date is earlier than join date
+176,gender is empty
+176,Joined at date is in the future
+176,Last purchase date is earlier than join date
+176,preferredCategory is empty
+176,Churned is not valid
+177,Churned is not valid
+178,Joined at date is not valid
+178,Churned is not valid
+179,Joined at date is not valid
+179,Churned is not valid
+180,Churned is not valid
+181,Churned is not valid
+182,Joined at date is not valid
+182,Churned is not valid
+183,gender is empty
+183,Joined at date is not valid
+183,Churned is not valid
+184,age is empty
+184,Last purchase date is earlier than join date
+184,Churned is not valid
+185,Joined at date is in the future
+185,Last purchase date is earlier than join date
+185,Churned is not valid
+186,Last purchase date is in the future
+186,Churned is not valid
+187,Last purchase date is earlier than join date
+187,preferredCategory is empty
+187,Churned is not valid
+188,age is empty
+188,Joined at date is in the future
+188,Last purchase date is earlier than join date
+188,Churned is not valid
+189,Joined at date is before 2000
+189,Last purchase date is before 2000
+189,Last purchase date is earlier than join date
+189,preferredCategory is empty
+189,Churned is not valid
+190,gender is empty
+190,Joined at date is in the future
+190,Last purchase date is earlier than join date
+190,Churned is not valid
+191,age is empty
+191,Last purchase date is in the future
+191,Churned is not valid
+192,Joined at date is not valid
+192,preferredCategory is empty
+192,Churned is not valid
+193,phone is empty
+193,Joined at date is in the future
+193,Last purchase date is in the future
+193,Churned is not valid
+194,Joined at date is not valid
+194,Churned is not valid
+195,Last purchase date is not valid
+195,Churned is not valid
+196,Churned is not valid
+197,Last purchase date is in the future
+197,Churned is not valid
+198,Churned is not valid
+199,Joined at date is in the future
+199,Last purchase date is earlier than join date
+199,Churned is not valid
+200,Joined at date is not valid
+200,Churned is not valid
+201,Joined at date is in the future
+201,Last purchase date is in the future
+201,Last purchase date is earlier than join date
+201,Churned is not valid
+202,Last purchase date is in the future
+202,Churned is not valid
+203,Last purchase date is earlier than join date
+203,Churned is not valid
+204,preferredCategory is empty
+204,Churned is not valid
+205,Joined at date is not valid
+205,preferredCategory is empty
+205,Churned is not valid
+206,Last purchase date is in the future
+206,Churned is not valid
+207,phone is empty
+207,Joined at date is in the future
+207,Last purchase date is not valid
+207,Churned is not valid
+208,Last purchase date is before 2000
+208,Last purchase date is earlier than join date
+208,preferredCategory is empty
+208,Churned is not valid
+209,phone is empty
+209,Joined at date is before 2000
+209,Last purchase date is before 2000
+209,Last purchase date is earlier than join date
+209,preferredCategory is empty
+209,Churned is not valid
+210,Last purchase date is earlier than join date
+210,Churned is not valid
+211,Last purchase date is earlier than join date
+211,Churned is not valid
+212,Last purchase date is not valid
+212,Churned is not valid
+213,Phone number length is not valid
+213,Churned is not valid
+214,Churned is not valid
+215,Churned is not valid
+216,age is empty
+216,Joined at date is not valid
+216,Churned is not valid
+217,Churned is not valid
+218,gender is empty
+218,preferredCategory is empty
+218,Churned is not valid
+219,Churned is not valid
+220,Joined at date is not valid
+220,Churned is not valid
+221,Last purchase date is in the future
+221,Churned is not valid
+222,Churned is not valid
+223,Phone number length is not valid
+223,Churned is not valid
+224,Last purchase date is in the future
+224,Churned is not valid
+225,Last purchase date is not valid
+225,Churned is not valid
+226,Last purchase date is not valid
+226,Churned is not valid
+227,Joined at date is before 2000
+227,Churned is not valid
+228,age is empty
+228,gender is empty
+228,Joined at date is not valid
+228,Churned is not valid
+229,Last purchase date is earlier than join date
+229,preferredCategory is empty
+229,Churned is not valid
+230,Last purchase date is earlier than join date
+230,Churned is not valid
+231,Churned is not valid
+232,Churned is not valid
+233,Churned is not valid
+234,age is empty
+234,Churned is not valid
+235,Joined at date is before 2000
+235,preferredCategory is empty
+235,Churned is not valid
+236,Phone number length is not valid
+236,preferredCategory is empty
+236,Churned is not valid
+237,Joined at date is before 2000
+237,preferredCategory is empty
+237,Churned is not valid
+238,Last purchase date is before 2000
+238,Last purchase date is earlier than join date
+238,Churned is not valid
+239,Joined at date is in the future
+239,Last purchase date is before 2000
+239,Last purchase date is earlier than join date
+239,Churned is not valid
+240,Joined at date is in the future
+240,Last purchase date is earlier than join date
+240,Churned is not valid
+241,Last purchase date is earlier than join date
+241,preferredCategory is empty
+241,Churned is not valid
+242,Churned is not valid
+243,gender is empty
+243,Joined at date is in the future
+243,Last purchase date is earlier than join date
+243,Churned is not valid
+244,preferredCategory is empty
+244,Churned is not valid
+245,Churned is not valid
+246,Last purchase date is earlier than join date
+246,Churned is not valid
+247,Joined at date is before 2000
+247,Last purchase date is not valid
+247,Churned is not valid
+248,age is empty
+248,Last purchase date is earlier than join date
+248,Churned is not valid
+249,Joined at date is not valid
+249,preferredCategory is empty
+249,Churned is not valid
+250,age is empty
+250,preferredCategory is empty
+250,Churned is not valid
+251,Last purchase date is before 2000
+251,Last purchase date is earlier than join date
+251,Churned is not valid
+252,Last purchase date is not valid
+252,Churned is not valid
+253,Last purchase date is before 2000
+253,Last purchase date is earlier than join date
+253,Churned is not valid
+254,Joined at date is not valid
+254,preferredCategory is empty
+254,Churned is not valid
+255,age is empty
+255,gender is empty
+255,Joined at date is not valid
+255,Churned is not valid
+256,Joined at date is in the future
+256,Last purchase date is in the future
+256,Last purchase date is earlier than join date
+256,Churned is not valid
+257,Churned is not valid
+258,gender is empty
+258,Joined at date is in the future
+258,Last purchase date is before 2000
+258,Last purchase date is earlier than join date
+258,Churned is not valid
+259,Last purchase date is before 2000
+259,Last purchase date is earlier than join date
+259,preferredCategory is empty
+259,Churned is not valid
+260,age is empty
+260,gender is empty
+260,Joined at date is not valid
+261,Last purchase date is in the future
+261,preferredCategory is empty
+261,Churned is not valid
+262,Last purchase date is earlier than join date
+262,Churned is not valid
+263,Joined at date is in the future
+263,Last purchase date is earlier than join date
+263,preferredCategory is empty
+263,Churned is not valid
+264,Joined at date is before 2000
+264,Last purchase date is in the future
+264,Churned is not valid
+265,Joined at date is in the future
+265,Last purchase date is in the future
+265,Last purchase date is earlier than join date
+265,Churned is not valid
+266,Joined at date is in the future
+266,Last purchase date is earlier than join date
+266,preferredCategory is empty
+266,Churned is not valid
+267,Joined at date is in the future
+267,Last purchase date is earlier than join date
+267,Churned is not valid
+268,Joined at date is not valid
+268,Churned is not valid
+269,Churned is not valid
+270,gender is empty
+270,phone is empty
+270,Joined at date is before 2000
+270,Churned is not valid
+271,phone is empty
+271,Joined at date is not valid
+271,Churned is not valid
+272,Joined at date is in the future
+272,Last purchase date is before 2000
+272,Last purchase date is earlier than join date
+272,Churned is not valid
+273,Joined at date is not valid
+273,preferredCategory is empty
+273,Churned is not valid
+274,age is empty
+274,Last purchase date is before 2000
+274,Last purchase date is earlier than join date
+274,Churned is not valid
+275,phone is empty
+275,Joined at date is before 2000
+275,Churned is not valid
+276,gender is empty
+276,Last purchase date is not valid
+276,preferredCategory is empty
+276,Churned is not valid
+277,age is empty
+277,Churned is not valid
+278,Last purchase date is in the future
+278,Churned is not valid
+279,Joined at date is not valid
+279,Churned is not valid
+280,Last purchase date is not valid
+280,Churned is not valid
+281,Last purchase date is not valid
+281,preferredCategory is empty
+281,Churned is not valid
+282,gender is empty
+282,Last purchase date is not valid
+282,Churned is not valid
+283,Last purchase date is not valid
+283,preferredCategory is empty
+283,Churned is not valid
+284,Joined at date is not valid
+284,Churned is not valid
+285,Joined at date is in the future
+285,Last purchase date is not valid
+285,Churned is not valid
+286,age is empty
+286,Joined at date is in the future
+286,Last purchase date is earlier than join date
+287,Joined at date is not valid
+287,preferredCategory is empty
+287,Churned is not valid
+288,gender is empty
+288,Last purchase date is in the future
+288,Churned is not valid
+289,Churned is not valid
+290,Joined at date is not valid
+290,Churned is not valid
+291,Churned is not valid
+292,Last purchase date is before 2000
+292,Last purchase date is earlier than join date
+292,Churned is not valid
+293,Last purchase date is in the future
+293,Churned is not valid
+294,Churned is not valid
+295,gender is empty
+295,Last purchase date is not valid
+295,Churned is not valid
+296,preferredCategory is empty
+296,Churned is not valid
+297,Joined at date is not valid
+297,Churned is not valid
+298,age is empty
+298,Joined at date is not valid
+298,Churned is not valid
+299,Churned is not valid
+300,Phone number length is not valid
+300,Churned is not valid
+301,gender is empty
+301,Last purchase date is not valid
+301,Churned is not valid
+302,phone is empty
+302,Last purchase date is not valid
+302,Churned is not valid
+303,Joined at date is not valid
+303,preferredCategory is empty
+303,Churned is not valid
+304,Last purchase date is not valid
+304,Churned is not valid
+305,age is empty
+305,phone is empty
+305,Churned is not valid
+306,preferredCategory is empty
+306,Churned is not valid
+307,Last purchase date is earlier than join date
+307,Churned is not valid
+308,Last purchase date is not valid
+308,Churned is not valid
+309,gender is empty
+309,Joined at date is before 2000
+309,Last purchase date is not valid
+309,Churned is not valid
+310,Last purchase date is earlier than join date
+310,preferredCategory is empty
+310,Churned is not valid
+311,Last purchase date is before 2000
+311,Last purchase date is earlier than join date
+311,Churned is not valid
+312,Churned is not valid
+313,Joined at date is before 2000
+313,Last purchase date is not valid
+313,Churned is not valid
+314,Last purchase date is in the future
+314,Churned is not valid
+315,gender is empty
+315,Joined at date is not valid
+315,Churned is not valid
+316,Joined at date is before 2000
+316,preferredCategory is empty
+316,Churned is not valid
+317,age is empty
+317,Joined at date is in the future
+317,Last purchase date is earlier than join date
+317,Churned is not valid
+318,Joined at date is before 2000
+318,Last purchase date is in the future
+318,Churned is not valid
+319,Last purchase date is before 2000
+319,Last purchase date is earlier than join date
+319,Churned is not valid
+320,Last purchase date is not valid
+320,preferredCategory is empty
+320,Churned is not valid
+321,Churned is not valid
+322,Last purchase date is earlier than join date
+322,preferredCategory is empty
+322,Churned is not valid
+323,Last purchase date is in the future
+323,preferredCategory is empty
+323,Churned is not valid
+324,Churned is not valid
+325,Churned is not valid
+326,Joined at date is in the future
+326,Last purchase date is earlier than join date
+326,preferredCategory is empty
+326,Churned is not valid
+327,Last purchase date is before 2000
+327,Last purchase date is earlier than join date
+327,Churned is not valid
+328,Last purchase date is earlier than join date
+328,preferredCategory is empty
+328,Churned is not valid
+329,gender is empty
+330,phone is empty
+330,Joined at date is in the future
+330,Last purchase date is earlier than join date
+330,Churned is not valid
+331,Churned is not valid
+332,Joined at date is not valid
+332,Churned is not valid
+333,Churned is not valid
+334,Last purchase date is before 2000
+334,Last purchase date is earlier than join date
+334,Churned is not valid
+335,Joined at date is not valid
+335,Churned is not valid
+336,gender is empty
+336,Phone number length is not valid
+336,Churned is not valid
+337,Last purchase date is earlier than join date
+337,Churned is not valid
+338,Last purchase date is earlier than join date
+338,Churned is not valid
+339,Joined at date is not valid
+339,Churned is not valid
+340,preferredCategory is empty
+340,Churned is not valid
+341,Churned is not valid
+342,Joined at date is in the future
+342,Last purchase date is earlier than join date
+342,preferredCategory is empty
+342,Churned is not valid
+343,Joined at date is not valid
+343,preferredCategory is empty
+343,Churned is not valid
+344,Phone number length is not valid
+344,Joined at date is not valid
+344,Churned is not valid
+345,Last purchase date is before 2000
+345,Last purchase date is earlier than join date
+345,Churned is not valid
+346,Last purchase date is earlier than join date
+346,Churned is not valid
+347,Last purchase date is not valid
+347,preferredCategory is empty
+347,Churned is not valid
+348,Churned is not valid
+349,Joined at date is in the future
+349,Last purchase date is in the future
+349,Last purchase date is earlier than join date
+350,phone is empty
+350,Joined at date is not valid
+350,Churned is not valid
+351,Joined at date is in the future
+351,Last purchase date is earlier than join date
+351,Churned is not valid
+352,preferredCategory is empty
+352,Churned is not valid
+353,gender is empty
+353,Last purchase date is earlier than join date
+353,Churned is not valid
+354,Joined at date is before 2000
+354,Churned is not valid
+355,Joined at date is before 2000
+355,Last purchase date is in the future
+355,Churned is not valid
+356,Last purchase date is in the future
+356,Churned is not valid
+357,Last purchase date is not valid
+357,Churned is not valid
+358,age is empty
+358,Joined at date is not valid
+358,Churned is not valid
+359,Joined at date is in the future
+359,Last purchase date is earlier than join date
+359,Churned is not valid
+360,Last purchase date is not valid
+360,Churned is not valid
+361,age is empty
+361,Last purchase date is in the future
+361,Churned is not valid
+363,age is empty
+363,Joined at date is not valid
+363,Churned is not valid
+364,preferredCategory is empty
+364,Churned is not valid
+365,age is empty
+365,Churned is not valid
+366,Joined at date is not valid
+366,preferredCategory is empty
+366,Churned is not valid
+367,Phone number length is not valid
+367,Last purchase date is in the future
+367,Churned is not valid
+368,gender is empty
+368,Churned is not valid
+369,Joined at date is not valid
+369,Churned is not valid
+370,Joined at date is not valid
+370,Churned is not valid
+371,Joined at date is before 2000
+371,Last purchase date is not valid
+371,Churned is not valid
+372,Joined at date is in the future
+372,Last purchase date is before 2000
+372,Last purchase date is earlier than join date
+372,Churned is not valid
+373,age is empty
+373,gender is empty
+373,phone is empty
+373,Joined at date is before 2000
+373,Churned is not valid
+374,Joined at date is before 2000
+374,preferredCategory is empty
+374,Churned is not valid
+375,Churned is not valid
+376,Joined at date is before 2000
+376,preferredCategory is empty
+376,Churned is not valid
+377,Churned is not valid
+378,Last purchase date is before 2000
+378,Last purchase date is earlier than join date
+378,Churned is not valid
+379,gender is empty
+379,Joined at date is not valid
+379,Churned is not valid
+380,Churned is not valid
+381,Last purchase date is not valid
+381,preferredCategory is empty
+381,Churned is not valid
+382,Phone number length is not valid
+382,Last purchase date is in the future
+382,Churned is not valid
+383,Joined at date is before 2000
+383,Churned is not valid
+384,preferredCategory is empty
+385,gender is empty
+385,Joined at date is in the future
+385,Last purchase date is earlier than join date
+385,Churned is not valid
+386,Joined at date is in the future
+386,Last purchase date is earlier than join date
+386,Churned is not valid
+387,Joined at date is not valid
+387,preferredCategory is empty
+387,Churned is not valid
+388,Joined at date is in the future
+388,Last purchase date is earlier than join date
+388,Churned is not valid
+389,gender is empty
+389,Joined at date is not valid
+389,preferredCategory is empty
+389,Churned is not valid
+390,Last purchase date is in the future
+390,preferredCategory is empty
+390,Churned is not valid
+391,Churned is not valid
+392,Churned is not valid
+393,Phone number length is not valid
+393,Joined at date is before 2000
+393,Last purchase date is in the future
+393,Churned is not valid
+394,Joined at date is in the future
+394,Last purchase date is earlier than join date
+394,Churned is not valid
+395,age is empty
+395,Last purchase date is not valid
+395,Churned is not valid
+396,age is empty
+396,Churned is not valid
+397,Last purchase date is in the future
+397,Churned is not valid
+398,Churned is not valid
+399,Joined at date is in the future
+399,Last purchase date is not valid
+399,Churned is not valid
+400,Last purchase date is earlier than join date
+400,Churned is not valid
+401,Joined at date is in the future
+401,Last purchase date is earlier than join date
+401,preferredCategory is empty
+401,Churned is not valid
+402,Last purchase date is before 2000
+402,Last purchase date is earlier than join date
+402,Churned is not valid
+403,Joined at date is in the future
+403,Last purchase date is earlier than join date
+403,Churned is not valid
+404,Churned is not valid
+405,Last purchase date is not valid
+405,preferredCategory is empty
+405,Churned is not valid
+406,Joined at date is before 2000
+406,Churned is not valid
+407,Last purchase date is before 2000
+407,Last purchase date is earlier than join date
+407,Churned is not valid
+408,Joined at date is not valid
+408,Churned is not valid
+409,age is empty
+409,Last purchase date is in the future
+409,Churned is not valid
+410,Joined at date is not valid
+410,Churned is not valid
+411,gender is empty
+411,Churned is not valid
+412,Joined at date is in the future
+412,Last purchase date is in the future
+412,Last purchase date is earlier than join date
+412,Churned is not valid
+413,preferredCategory is empty
+413,Churned is not valid
+414,phone is empty
+414,Churned is not valid
+415,Churned is not valid
+416,Last purchase date is not valid
+417,Last purchase date is before 2000
+417,Last purchase date is earlier than join date
+417,Churned is not valid
+418,Joined at date is before 2000
+418,Last purchase date is not valid
+418,preferredCategory is empty
+418,Churned is not valid
+419,gender is empty
+419,phone is empty
+419,Last purchase date is before 2000
+419,Last purchase date is earlier than join date
+419,Churned is not valid
+420,Churned is not valid
+421,Phone number length is not valid
+421,Last purchase date is not valid
+421,Churned is not valid
+422,age is empty
+422,Last purchase date is in the future
+423,Joined at date is in the future
+423,Last purchase date is earlier than join date
+423,Churned is not valid
+424,Last purchase date is in the future
+424,Churned is not valid
+425,Churned is not valid
+426,age is empty
+426,gender is empty
+426,Last purchase date is before 2000
+426,Last purchase date is earlier than join date
+426,Churned is not valid
+427,Last purchase date is earlier than join date
+427,Churned is not valid
+428,gender is empty
+428,Joined at date is before 2000
+428,Churned is not valid
+429,Joined at date is not valid
+429,preferredCategory is empty
+429,Churned is not valid
+430,gender is empty
+430,Last purchase date is in the future
+430,Churned is not valid
+431,Joined at date is not valid
+431,preferredCategory is empty
+431,Churned is not valid
+432,Joined at date is not valid
+432,Churned is not valid
+433,Joined at date is before 2000
+433,preferredCategory is empty
+433,Churned is not valid
+434,Joined at date is not valid
+434,Churned is not valid
+435,Joined at date is in the future
+435,Last purchase date is earlier than join date
+435,Churned is not valid
+436,Last purchase date is before 2000
+436,Last purchase date is earlier than join date
+436,preferredCategory is empty
+436,Churned is not valid
+437,Joined at date is in the future
+437,Last purchase date is earlier than join date
+437,Churned is not valid
+439,Churned is not valid
+440,gender is empty
+440,Last purchase date is in the future
+440,Churned is not valid
+441,Churned is not valid
+442,Last purchase date is before 2000
+442,Last purchase date is earlier than join date
+442,Churned is not valid
+443,Phone number length is not valid
+443,Churned is not valid
+444,Last purchase date is not valid
+444,preferredCategory is empty
+444,Churned is not valid
+445,Last purchase date is not valid
+445,preferredCategory is empty
+445,Churned is not valid
+446,gender is empty
+446,Last purchase date is not valid
+446,Churned is not valid
+447,phone is empty
+447,Churned is not valid
+448,Last purchase date is earlier than join date
+448,Churned is not valid
+449,Last purchase date is earlier than join date
+449,Churned is not valid
+450,Joined at date is before 2000
+450,Churned is not valid
+451,phone is empty
+451,Joined at date is in the future
+451,Last purchase date is not valid
+451,Churned is not valid
+452,Churned is not valid
+453,Last purchase date is before 2000
+453,Last purchase date is earlier than join date
+453,Churned is not valid
+454,Last purchase date is in the future
+454,Churned is not valid
+455,Joined at date is before 2000
+455,Last purchase date is not valid
+455,Churned is not valid
+456,Last purchase date is before 2000
+456,Last purchase date is earlier than join date
+456,Churned is not valid
+457,Joined at date is in the future
+457,Last purchase date is before 2000
+457,Last purchase date is earlier than join date
+458,Last purchase date is earlier than join date
+458,Churned is not valid
+459,Joined at date is in the future
+459,Last purchase date is not valid
+459,Churned is not valid
+460,age is empty
+460,Joined at date is in the future
+460,Last purchase date is in the future
+460,preferredCategory is empty
+460,Churned is not valid
+461,Last purchase date is in the future
+461,preferredCategory is empty
+461,Churned is not valid
+462,Joined at date is in the future
+462,Last purchase date is before 2000
+462,Last purchase date is earlier than join date
+462,Churned is not valid
+463,Joined at date is not valid
+463,Churned is not valid
+464,Joined at date is in the future
+464,Last purchase date is before 2000
+464,Last purchase date is earlier than join date
+464,Churned is not valid
+465,Phone number length is not valid
+465,Churned is not valid
+466,preferredCategory is empty
+466,Churned is not valid
+467,gender is empty
+467,Last purchase date is not valid
+467,Churned is not valid
+468,gender is empty
+468,Last purchase date is earlier than join date
+468,Churned is not valid
+469,Churned is not valid
+470,gender is empty
+470,Last purchase date is earlier than join date
+470,preferredCategory is empty
+470,Churned is not valid
+471,Churned is not valid
+472,Last purchase date is before 2000
+472,Last purchase date is earlier than join date
+472,Churned is not valid
+473,Phone number length is not valid
+473,Churned is not valid
+474,Last purchase date is before 2000
+474,Last purchase date is earlier than join date
+474,Churned is not valid
+475,gender is empty
+475,Last purchase date is not valid
+475,Churned is not valid
+476,Last purchase date is not valid
+476,Churned is not valid
+477,Joined at date is in the future
+477,Last purchase date is before 2000
+477,Last purchase date is earlier than join date
+477,Churned is not valid
+478,Last purchase date is in the future
+478,Churned is not valid
+479,Last purchase date is in the future
+479,Churned is not valid
+480,Joined at date is in the future
+480,Last purchase date is earlier than join date
+480,Churned is not valid
+481,Churned is not valid
+482,Joined at date is not valid
+482,Churned is not valid
+483,age is empty
+483,gender is empty
+483,phone is empty
+483,Last purchase date is before 2000
+483,Last purchase date is earlier than join date
+483,Churned is not valid
+484,phone is empty
+484,Churned is not valid
+485,Churned is not valid
+486,Joined at date is before 2000
+486,Churned is not valid
+487,Joined at date is in the future
+487,Last purchase date is in the future
+487,Last purchase date is earlier than join date
+487,Churned is not valid
+488,gender is empty
+488,Last purchase date is before 2000
+488,Last purchase date is earlier than join date
+488,Churned is not valid
+489,phone is empty
+489,Last purchase date is not valid
+489,Churned is not valid
+490,Joined at date is in the future
+490,Last purchase date is not valid
+490,Churned is not valid
+491,Joined at date is in the future
+491,Last purchase date is earlier than join date
+491,Churned is not valid
+492,Joined at date is before 2000
+492,Churned is not valid
+493,Phone number length is not valid
+493,Churned is not valid
+494,age is empty
+494,Last purchase date is before 2000
+494,Last purchase date is earlier than join date
+495,gender is empty
+495,Last purchase date is not valid
+495,preferredCategory is empty
+495,Churned is not valid
+496,Last purchase date is in the future
+496,Churned is not valid
+497,age is empty
+497,gender is empty
+497,Joined at date is not valid
+498,Last purchase date is in the future
+498,Churned is not valid
+499,Last purchase date is not valid
+500,gender is empty
+500,Joined at date is in the future
+500,Last purchase date is earlier than join date
+500,preferredCategory is empty
+500,Churned is not valid
+501,Joined at date is not valid
+501,preferredCategory is empty
+501,Churned is not valid
+502,Joined at date is in the future
+502,Last purchase date is earlier than join date
+502,Churned is not valid
+503,age is empty
+503,phone is empty
+503,Joined at date is in the future
+503,Last purchase date is earlier than join date
+503,Churned is not valid
+504,Joined at date is not valid
+505,Last purchase date is not valid
+505,Churned is not valid
+506,Joined at date is not valid
+506,Churned is not valid
+507,Last purchase date is before 2000
+507,Last purchase date is earlier than join date
+507,Churned is not valid
+508,gender is empty
+509,Last purchase date is before 2000
+509,Last purchase date is earlier than join date
+509,Churned is not valid
+510,Joined at date is before 2000
+510,Last purchase date is before 2000
+510,Last purchase date is earlier than join date
+510,Churned is not valid
+511,gender is empty
+511,Last purchase date is in the future
+511,Churned is not valid
+512,Last purchase date is not valid
+512,Churned is not valid
+513,Joined at date is before 2000
+513,Last purchase date is before 2000
+513,preferredCategory is empty
+513,Churned is not valid
+514,Joined at date is in the future
+514,Last purchase date is earlier than join date
+514,preferredCategory is empty
+514,Churned is not valid
+515,phone is empty
+515,Churned is not valid
+516,Last purchase date is before 2000
+516,Last purchase date is earlier than join date
+516,Churned is not valid
+518,Last purchase date is in the future
+518,preferredCategory is empty
+518,Churned is not valid
+519,Churned is not valid
+520,age is empty
+520,Last purchase date is not valid
+520,Churned is not valid
+521,Churned is not valid
+522,preferredCategory is empty
+522,Churned is not valid
+523,Joined at date is not valid
+523,Churned is not valid
+524,Last purchase date is not valid
+524,Churned is not valid
+525,Last purchase date is earlier than join date
+525,preferredCategory is empty
+525,Churned is not valid
+526,Churned is not valid
+527,Phone number length is not valid
+527,Churned is not valid
+528,Churned is not valid
+529,gender is empty
+529,Last purchase date is before 2000
+529,Last purchase date is earlier than join date
+529,Churned is not valid
+530,Last purchase date is earlier than join date
+531,Last purchase date is in the future
+531,Churned is not valid
+532,phone is empty
+532,Last purchase date is earlier than join date
+533,age is empty
+533,Joined at date is before 2000
+533,Churned is not valid
+534,Last purchase date is not valid
+534,Churned is not valid
+535,Churned is not valid
+536,Joined at date is before 2000
+537,Last purchase date is not valid
+537,Churned is not valid
+538,Joined at date is in the future
+538,Last purchase date is earlier than join date
+538,Churned is not valid
+539,phone is empty
+539,Joined at date is not valid
+539,Churned is not valid
+540,Joined at date is not valid
+540,Churned is not valid
+541,Churned is not valid
+542,Last purchase date is not valid
+542,Churned is not valid
+543,phone is empty
+543,Last purchase date is in the future
+543,Churned is not valid
+544,Joined at date is in the future
+544,Last purchase date is in the future
+544,Last purchase date is earlier than join date
+544,Churned is not valid
+545,Joined at date is in the future
+545,Last purchase date is earlier than join date
+545,Churned is not valid
+546,phone is empty
+546,Churned is not valid
+547,Last purchase date is earlier than join date
+547,Churned is not valid
+548,Last purchase date is earlier than join date
+548,Churned is not valid
+549,Joined at date is before 2000
+549,preferredCategory is empty
+549,Churned is not valid
+550,Joined at date is before 2000
+550,Last purchase date is before 2000
+550,Last purchase date is earlier than join date
+550,Churned is not valid
+551,Joined at date is before 2000
+551,Churned is not valid
+552,preferredCategory is empty
+552,Churned is not valid
+553,Last purchase date is earlier than join date
+553,Churned is not valid
+554,Last purchase date is in the future
+554,Churned is not valid
+555,Churned is not valid
+556,Last purchase date is not valid
+556,Churned is not valid
+557,age is empty
+557,Last purchase date is before 2000
+557,Last purchase date is earlier than join date
+557,Churned is not valid
+558,Joined at date is in the future
+558,Last purchase date is earlier than join date
+558,Churned is not valid
+559,Last purchase date is not valid
+559,Churned is not valid
+560,Joined at date is in the future
+560,Last purchase date is in the future
+560,Last purchase date is earlier than join date
+560,Churned is not valid
+561,phone is empty
+561,Last purchase date is in the future
+561,Churned is not valid
+562,Joined at date is not valid
+562,preferredCategory is empty
+562,Churned is not valid
+563,Joined at date is not valid
+563,Churned is not valid
+564,age is empty
+564,Joined at date is before 2000
+564,Last purchase date is not valid
+564,preferredCategory is empty
+564,Churned is not valid
+565,Joined at date is in the future
+565,Last purchase date is earlier than join date
+565,preferredCategory is empty
+565,Churned is not valid
+566,Last purchase date is in the future
+566,Churned is not valid
+567,Joined at date is in the future
+567,Last purchase date is earlier than join date
+567,preferredCategory is empty
+567,Churned is not valid
+568,gender is empty
+568,phone is empty
+568,Churned is not valid
+569,Churned is not valid
+570,Churned is not valid
+571,Churned is not valid
+572,Churned is not valid
+573,Last purchase date is not valid
+573,Churned is not valid
+574,Phone number length is not valid
+574,Last purchase date is not valid
+574,Churned is not valid
+575,Last purchase date is in the future
+575,Churned is not valid
+576,Phone number length is not valid
+576,Last purchase date is not valid
+576,Churned is not valid
+577,age is empty
+577,phone is empty
+577,Joined at date is in the future
+577,Last purchase date is in the future
+577,preferredCategory is empty
+577,Churned is not valid
+578,Joined at date is in the future
+578,Last purchase date is not valid
+578,preferredCategory is empty
+579,phone is empty
+579,Last purchase date is earlier than join date
+579,preferredCategory is empty
+579,Churned is not valid
+580,Joined at date is in the future
+580,Last purchase date is earlier than join date
+580,Churned is not valid
+581,Last purchase date is before 2000
+581,Last purchase date is earlier than join date
+581,preferredCategory is empty
+581,Churned is not valid
+582,phone is empty
+582,Joined at date is not valid
+583,Joined at date is before 2000
+583,Last purchase date is before 2000
+583,Churned is not valid
+584,Last purchase date is before 2000
+584,Last purchase date is earlier than join date
+584,Churned is not valid
+585,Last purchase date is not valid
+585,Churned is not valid
+586,age is empty
+586,Last purchase date is earlier than join date
+586,Churned is not valid
+587,phone is empty
+587,Churned is not valid
+588,Last purchase date is in the future
+588,Churned is not valid
+589,Joined at date is in the future
+589,Last purchase date is in the future
+589,Last purchase date is earlier than join date
+589,Churned is not valid
+590,Churned is not valid
+591,Churned is not valid
+592,Joined at date is not valid
+592,preferredCategory is empty
+592,Churned is not valid
+593,Churned is not valid
+594,gender is empty
+594,Last purchase date is in the future
+594,Churned is not valid
+595,Last purchase date is before 2000
+595,Last purchase date is earlier than join date
+595,Churned is not valid
+596,age is empty
+596,Joined at date is before 2000
+596,Last purchase date is before 2000
+596,Last purchase date is earlier than join date
+596,preferredCategory is empty
+596,Churned is not valid
+597,age is empty
+597,Last purchase date is earlier than join date
+597,Churned is not valid
+598,Joined at date is in the future
+598,Last purchase date is in the future
+598,preferredCategory is empty
+598,Churned is not valid
+599,age is empty
+599,Joined at date is not valid
+599,Churned is not valid
+600,gender is empty
+600,Joined at date is before 2000
+600,Churned is not valid
+601,Joined at date is in the future
+601,Last purchase date is earlier than join date
+601,Churned is not valid
+602,Joined at date is not valid
+602,Churned is not valid
+603,age is empty
+603,Churned is not valid
+604,age is empty
+604,Joined at date is not valid
+604,preferredCategory is empty
+604,Churned is not valid
+605,Churned is not valid
+606,Churned is not valid
+607,Phone number length is not valid
+607,Joined at date is in the future
+607,Last purchase date is before 2000
+607,Last purchase date is earlier than join date
+607,preferredCategory is empty
+607,Churned is not valid
+608,Last purchase date is in the future
+608,Churned is not valid
+609,Last purchase date is not valid
+609,Churned is not valid
+610,Last purchase date is before 2000
+610,Last purchase date is earlier than join date
+610,Churned is not valid
+611,Joined at date is not valid
+611,preferredCategory is empty
+611,Churned is not valid
+612,phone is empty
+612,preferredCategory is empty
+612,Churned is not valid
+613,Last purchase date is before 2000
+613,Last purchase date is earlier than join date
+613,preferredCategory is empty
+613,Churned is not valid
+614,Churned is not valid
+615,gender is empty
+615,phone is empty
+615,Joined at date is in the future
+615,Last purchase date is earlier than join date
+615,Churned is not valid
+616,Joined at date is in the future
+616,Last purchase date is in the future
+616,Churned is not valid
+617,age is empty
+617,gender is empty
+617,Last purchase date is in the future
+617,Churned is not valid
+618,Churned is not valid
+619,Last purchase date is before 2000
+619,Last purchase date is earlier than join date
+619,Churned is not valid
+620,Joined at date is in the future
+620,Last purchase date is not valid
+620,Churned is not valid
+621,Joined at date is not valid
+621,Churned is not valid
+622,Joined at date is before 2000
+622,Churned is not valid
+623,Last purchase date is not valid
+623,Churned is not valid
+624,Last purchase date is in the future
+624,Churned is not valid
+625,Churned is not valid
+626,age is empty
+626,Joined at date is before 2000
+626,Last purchase date is not valid
+626,Churned is not valid
+627,Joined at date is not valid
+627,preferredCategory is empty
+627,Churned is not valid
+629,Last purchase date is earlier than join date
+629,Churned is not valid
+630,Phone number length is not valid
+630,Last purchase date is in the future
+630,Churned is not valid
+631,Phone number length is not valid
+631,Joined at date is in the future
+631,Last purchase date is earlier than join date
+631,Churned is not valid
+632,Phone number length is not valid
+632,Last purchase date is in the future
+632,Churned is not valid
+633,Joined at date is before 2000
+633,Churned is not valid
+634,preferredCategory is empty
+634,Churned is not valid
+635,Joined at date is not valid
+635,Churned is not valid
+636,Last purchase date is before 2000
+636,Last purchase date is earlier than join date
+636,Churned is not valid
+637,phone is empty
+637,Churned is not valid
+638,Joined at date is before 2000
+638,Churned is not valid
+639,gender is empty
+639,Last purchase date is in the future
+639,Churned is not valid
+640,gender is empty
+640,Joined at date is in the future
+640,Last purchase date is in the future
+640,Last purchase date is earlier than join date
+640,Churned is not valid
+641,Churned is not valid
+642,gender is empty
+642,phone is empty
+642,Churned is not valid
+643,Joined at date is not valid
+643,Churned is not valid
+644,age is empty
+644,Churned is not valid
+645,Last purchase date is not valid
+645,Churned is not valid
+646,Joined at date is before 2000
+646,Churned is not valid
+647,phone is empty
+647,Joined at date is in the future
+647,Last purchase date is before 2000
+647,Last purchase date is earlier than join date
+647,preferredCategory is empty
+647,Churned is not valid
+648,Phone number length is not valid
+648,Churned is not valid
+649,Joined at date is before 2000
+649,preferredCategory is empty
+649,Churned is not valid
+650,Joined at date is in the future
+650,Last purchase date is in the future
+650,Churned is not valid
+651,Joined at date is not valid
+651,Churned is not valid
+652,Last purchase date is earlier than join date
+652,Churned is not valid
+653,Phone number length is not valid
+653,Churned is not valid
+654,preferredCategory is empty
+654,Churned is not valid
+655,Last purchase date is in the future
+655,Churned is not valid
+656,Joined at date is not valid
+656,Churned is not valid
+657,Phone number length is not valid
+657,Churned is not valid
+658,Joined at date is before 2000
+658,Last purchase date is in the future
+658,Churned is not valid
+659,phone is empty
+659,Joined at date is not valid
+659,Churned is not valid
+660,Churned is not valid
+661,Last purchase date is not valid
+661,preferredCategory is empty
+661,Churned is not valid
+662,Churned is not valid
+663,Churned is not valid
+664,Last purchase date is not valid
+664,Churned is not valid
+665,Joined at date is before 2000
+665,Last purchase date is before 2000
+665,Last purchase date is earlier than join date
+665,Churned is not valid
+666,Churned is not valid
+667,preferredCategory is empty
+667,Churned is not valid
+668,Last purchase date is earlier than join date
+668,Churned is not valid
+669,Joined at date is before 2000
+669,Churned is not valid
+670,Joined at date is not valid
+670,Churned is not valid
+671,Last purchase date is before 2000
+671,Last purchase date is earlier than join date
+671,Churned is not valid
+672,Last purchase date is not valid
+672,preferredCategory is empty
+672,Churned is not valid
+673,Last purchase date is not valid
+673,Churned is not valid
+674,Last purchase date is in the future
+674,Churned is not valid
+675,Joined at date is not valid
+675,Churned is not valid
+676,Last purchase date is before 2000
+676,Last purchase date is earlier than join date
+676,Churned is not valid
+677,Last purchase date is in the future
+677,Churned is not valid
+678,Joined at date is in the future
+678,Last purchase date is earlier than join date
+678,Churned is not valid
+679,Last purchase date is in the future
+679,Churned is not valid
+680,Last purchase date is in the future
+680,Churned is not valid
+681,Phone number length is not valid
+681,Joined at date is not valid
+681,Churned is not valid
+682,Churned is not valid
+683,Joined at date is in the future
+683,Last purchase date is earlier than join date
+683,preferredCategory is empty
+683,Churned is not valid
+684,gender is empty
+684,Phone number length is not valid
+684,Last purchase date is in the future
+684,Churned is not valid
+685,Phone number length is not valid
+685,Last purchase date is earlier than join date
+685,Churned is not valid
+686,Last purchase date is not valid
+686,Churned is not valid
+687,Last purchase date is earlier than join date
+687,Churned is not valid
+688,preferredCategory is empty
+688,Churned is not valid
+689,gender is empty
+689,Joined at date is in the future
+689,Last purchase date is earlier than join date
+689,Churned is not valid
+690,Joined at date is not valid
+690,Churned is not valid
+691,Churned is not valid
+692,Joined at date is in the future
+692,Last purchase date is in the future
+692,Last purchase date is earlier than join date
+692,Churned is not valid
+693,Last purchase date is earlier than join date
+693,preferredCategory is empty
+693,Churned is not valid
+694,Last purchase date is earlier than join date
+694,preferredCategory is empty
+694,Churned is not valid
+695,Joined at date is before 2000
+695,Last purchase date is before 2000
+695,Last purchase date is earlier than join date
+695,Churned is not valid
+696,Joined at date is in the future
+696,Last purchase date is earlier than join date
+696,Churned is not valid
+697,Churned is not valid
+698,Joined at date is in the future
+698,Last purchase date is before 2000
+698,Last purchase date is earlier than join date
+698,preferredCategory is empty
+698,Churned is not valid
+699,Joined at date is in the future
+699,Last purchase date is in the future
+699,Churned is not valid
+700,Last purchase date is in the future
+700,Churned is not valid
+701,gender is empty
+701,Joined at date is not valid
+701,preferredCategory is empty
+701,Churned is not valid
+702,Churned is not valid
+703,Joined at date is before 2000
+703,Last purchase date is in the future
+703,Churned is not valid
+704,gender is empty
+704,Joined at date is before 2000
+704,Churned is not valid
+705,Last purchase date is earlier than join date
+705,Churned is not valid
+706,Joined at date is before 2000
+707,preferredCategory is empty
+707,Churned is not valid
+708,age is empty
+708,Last purchase date is not valid
+708,preferredCategory is empty
+708,Churned is not valid
+709,Joined at date is in the future
+709,Last purchase date is not valid
+709,Churned is not valid
+710,gender is empty
+710,Last purchase date is before 2000
+710,Last purchase date is earlier than join date
+710,Churned is not valid
+711,gender is empty
+711,Churned is not valid
+712,Phone number length is not valid
+712,Joined at date is before 2000
+712,Last purchase date is in the future
+712,preferredCategory is empty
+712,Churned is not valid
+713,Last purchase date is before 2000
+713,Last purchase date is earlier than join date
+713,Churned is not valid
+714,age is empty
+714,Last purchase date is before 2000
+714,Last purchase date is earlier than join date
+714,Churned is not valid
+715,Last purchase date is in the future
+715,preferredCategory is empty
+715,Churned is not valid
+716,Phone number length is not valid
+716,Last purchase date is not valid
+716,Churned is not valid
+717,age is empty
+717,Last purchase date is not valid
+717,preferredCategory is empty
+717,Churned is not valid
+718,Churned is not valid
+719,Joined at date is in the future
+719,Last purchase date is before 2000
+719,Last purchase date is earlier than join date
+719,Churned is not valid
+720,Churned is not valid
+721,gender is empty
+721,Phone number length is not valid
+721,Last purchase date is earlier than join date
+721,Churned is not valid

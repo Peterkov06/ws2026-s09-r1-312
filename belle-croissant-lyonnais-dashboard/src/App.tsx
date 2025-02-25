@@ -1,5 +1,5 @@
 
-import { Component, ParentComponent } from 'solid-js'
+import { ParentComponent } from 'solid-js'
 import './App.css'
 import Sidebar from './components/sidebar'
 

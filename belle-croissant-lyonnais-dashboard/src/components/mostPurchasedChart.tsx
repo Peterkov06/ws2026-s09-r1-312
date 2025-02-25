@@ -27,10 +27,10 @@ const MostPurchasedChart = (props: { mostPurchased: Record<string,number> | unde
         responsive: true
     }
     return (
-        <div class="bg-[#f9f0e0] rounded-[10px] p-4 max-h-[400px]">
+        <div class="bg-[#f9f0e0] rounded-[10px] p-4 max-h-fit overflow-x-auto overflow-y-hidden">
             <p class="text-2xl font-bold">Most Purchased categories</p>
             <div class="flex flex-col h-full justify-center">
-              <div class="max-h-[85%] w-full">
+              <div class="max-h-[90%] w-full">
                   <BarChart data={chartData} options={options}/>
               </div>
             </div>

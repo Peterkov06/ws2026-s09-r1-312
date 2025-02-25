@@ -21,7 +21,7 @@ namespace Belle_Croissant_Lyonnais_Dashboard_API.Controllers
             try
             {
                 var client = _clientFactory.CreateClient();
-                var response = await client.GetAsync("http://localhost:3000/customers");
+                var response = await client.GetAsync("http://json-server:3000/customers");
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
@@ -29,8 +29,9 @@ namespace Belle_Croissant_Lyonnais_Dashboard_API.Controllers
                 }
                 return null;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine($"Error fetching customers: {ex.Message}");
                 return null;
             }
         }

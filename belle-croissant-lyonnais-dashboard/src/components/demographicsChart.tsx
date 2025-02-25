@@ -28,7 +28,7 @@ const DemographicsChart = (props: { title: string, demographics: Record<string,n
 
     }
     return (
-        <div class="bg-[#f9f0e0] rounded-[10px] p-4">
+        <div class="bg-[#f9f0e0] rounded-[10px] p-4 overflow-x-auto overflow-y-hidden">
             <p class="text-2xl font-bold">{props.title}</p>
             <div class="flex flex-row">
                 <div class="max-w-[160px] max-h-[160px] m-2">

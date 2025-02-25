@@ -1,0 +1,39 @@
+services:
+  frontend:
+    build:
+      context: ./belle-croissant-lyonnais-dashboard
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - VITE_API_URL=http://localhost:3000
+    depends_on:
+      - backend
+      - json-server
+
+  backend:
+    build:
+      context: ./Belle_Croissant_Lyonnais_Dashboard_API
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    depends_on:
+      - json-server
+
+  json-server:
+    image: node:22-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    command: >
+      sh -c "npm install -g json-server@0.17.4 && 
+             json-server /app/database.json --host 0.0.0.0 --port 3000"
+
+networks:
+  default:
+    name: belle-croissant-network
+

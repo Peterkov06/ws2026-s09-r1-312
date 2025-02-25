@@ -4,7 +4,7 @@ import { For } from "solid-js";
 
 const TopSpendersTable = (props: { topSpenders: Customer[] | undefined }) => {
     return (
-        <div class="bg-[#f9f0e0] rounded-[10px] p-4 flex flex-col gap-2">
+        <div class="bg-[#f9f0e0] rounded-[10px] p-4 flex flex-col gap-2 overflow-x-auto">
             <p class="text-2xl font-bold">Top Spenders</p>
             <div class="max-h-[300px] overflow-y-scroll">
                 <Table>

@@ -5,6 +5,7 @@ import numpy as np
 import datetime
 import urllib.request
 import json
+import argparse
 
 class CostumerData:
   def __init__(self, data):
@@ -45,8 +46,6 @@ class CostumerData:
         index += 1
     except Exception as e:
       print(f"{e} {row}")
-    for err in self.errors:
-      print(f"Row: {err['rowNumber']}, Error: {err['errorDescription']}")
     
   def validate_age(self, age):
     try:
@@ -198,16 +197,30 @@ def validate_and_transform_data(line_chunks):
 
 def post_data(datas):
   url = "http://localhost:3000/customers"
+  success_count = 0
+  total_count = len(datas)
   for data in datas:
-    req = urllib.request.Request(url, 
-                               data=json.dumps(data).encode('utf-8'),
-                               headers={'Content-Type': 'application/json'},
-                               method='POST')
     try:
-      with urllib.request.urlopen(req, timeout=50000) as response:
-        status = response.status
+      check_url = f"{url}/{data['id']}"
+      try:
+          urllib.request.urlopen(check_url)
+          print(f"Skipping ID {data['id']}: Already exists")
+          continue
+      except urllib.error.HTTPError as e:
+          if e.code == 404:
+              req = urllib.request.Request(url, 
+                                          data=json.dumps(data).encode('utf-8'),
+                                          headers={'Content-Type': 'application/json'},
+                                          method='POST')
+              with urllib.request.urlopen(req, timeout=50000) as response:
+                  status = response.status
+                  if (status >= 200 and status < 300):
+                      success_count += 1
+          else:
+              print(f"Error checking ID {data['id']}: {e}")
     except Exception as e:
       print(f"POST error: {e}")
+  print(f"\nSuccessfull POST: {success_count}/{total_count}\n")
 
 def write_errors(errors):
   result_errors = sorted(errors, key=lambda x: x['rowNumber'])
@@ -216,8 +229,20 @@ def write_errors(errors):
     writer.writerow(["row_number", "error_description"])
     for error in result_errors:
       writer.writerow([error["rowNumber"], error["errorDescription"]])
+  
+def print_errors(errors, result_datas_number, silent_mode = False):
+  if (not silent_mode):
+    errors = sorted(errors, key=lambda x: x['rowNumber'])
+    for error in errors:
+      print(f"Row: {error['rowNumber']}, Error: {error['errorDescription']}")
+  print(f"\nNo of datas: {result_datas_number}")
+  print(f"No of errors: {len(errors)}")
 
 def main():
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--silent", action="store_true")
+  args = parser.parse_args()
+  silent_mode = args.silent
   cores = mp.cpu_count()
   with open("customers.csv", "r") as file:
     test_lines = []
@@ -241,10 +266,15 @@ def main():
       result_datas.extend(result[0])
       result_errors.extend(result[1])
 
-    post_data(result_datas)
-
-    print(f"No of datas: {len(result_datas)}")
-    print(f"No of errors: {len(result_errors)}")
+  processes = [
+    mp.Process(target=post_data, args=(result_datas,)),
+    mp.Process(target=print_errors, args=(result_errors, len(result_datas), silent_mode)),
+    mp.Process(target=write_errors, args=(result_errors,))
+  ]
+  for p in processes:
+    p.start()
+  for p in processes:
+    p.join()
 
 if __name__ == "__main__":
   main()

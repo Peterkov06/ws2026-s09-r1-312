@@ -3,7 +3,7 @@ import logo from "~/assets/logo.png"
 import { A } from "@solidjs/router";
 const Sidebar = () => {
     return (
-        <div class="bg-[#cca25b] rounded-r-[10px] flex flex-col pt-4">
+        <div class="bg-[#cca25b] rounded-r-[10px] flex flex-col pt-4 col-span-2 md:col-span-1">
             <Avatar class="self-center">
                 <AvatarImage src={logo} />
                 <AvatarFallback>BCL</AvatarFallback>
