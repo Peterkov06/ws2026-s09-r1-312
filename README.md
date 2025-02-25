@@ -1,4 +1,6 @@
 # ws2026-s09-r1-312
+## Showcase video
+(once youtube decides that the video is not containing violance)
 ## How to start the app
 1. Clone this repo
 2. Have Docker desktop installed
@@ -6,5 +8,6 @@
 4. Run ```docker-compose up --build ```
 5. If finished without error the dashboard frontend should run on ```http://localhost:3001/``` (it launches the backend, frontend and the jsonserver)
 6. To run the input script, first have the docker container running and run ```python .\input_script.py``` (numpy is required to run the tool)
+    - Alternatively you can run ```python .\input_script.py --silent``` so it does not log the errors to the console, only to the .csv file
 
 - To swap out the database you can just replace the ```database.json``` with a same structure json file
