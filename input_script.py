@@ -245,7 +245,7 @@ def main():
   silent_mode = args.silent
   cores = mp.cpu_count()
   with open("customers.csv", "r") as file:
-    test_lines = []
+    lines = []
     reader = csv.reader(file)
     ind = 0
     for row in reader:
@@ -253,10 +253,10 @@ def main():
         ind += 1
         continue
       row.append(ind)
-      test_lines.append(row)
+      lines.append(row)
       ind += 1
     
-    chunks = np.array_split(test_lines, cores)
+    chunks = np.array_split(lines, cores)
     result_datas = []
     result_errors = []
     with mp.Pool(cores) as pool:
