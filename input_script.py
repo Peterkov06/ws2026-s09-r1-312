@@ -7,7 +7,19 @@ import urllib.request
 import json
 import argparse
 
-class CostumerData:
+# Constants
+VALID_GENDERS = ["M", "F"]
+VALID_MEMBERSHIPS = {"basic": "bronze", "silver": "silver", "gold": "gold"}
+UNKNOWN_CATEGORIES = ["Unknown", "TBD", "To Be Determined", "N/A"]
+VALID_CHURNED_TRUE = ["Y", "yes", "1"]
+VALID_CHURNED_FALSE = ["N", "no", "0"]
+MIN_PHONE_LENGTH = 10
+MIN_YEAR = 2000
+MAX_YEAR = 2025
+
+# CustumerData class
+class CustumerData:
+  """Validate and transform customer data"""
   def __init__(self, data):
     self.line_ind = data[len(data) - 1]
     row = data[:len(data) - 1]
@@ -27,6 +39,7 @@ class CostumerData:
       'frequency': self.validate_frequency
     }
 
+    # Goes through all the columns of the row and validates them
     try:
       index = 0
       while index < len(row):
@@ -34,9 +47,7 @@ class CostumerData:
           if (data_cols[index] in data_cols_validations and index != 9):
             self.data[data_cols[index]] = data_cols_validations[data_cols[index]](row[index])
           elif (index == 9):
-            dates = self.validate_dates(row[index], row[index + 1])
-            self.data[data_cols[index]] = dates[0]
-            self.data['lastPurchase'] = dates[1]
+            self.process_dates(row[index:index + 2])
             index += 1
           else:
             self.data[data_cols[index]] = row[index]
@@ -46,6 +57,11 @@ class CostumerData:
         index += 1
     except Exception as e:
       print(f"{e} {row}")
+
+  def process_dates(self, date_fields: list[str]):
+    dates = self.validate_dates(date_fields[0], date_fields[1])
+    self.data['joinedAt'] = dates[0]
+    self.data['lastPurchase'] = dates[1]
     
   def validate_age(self, age):
     try:
@@ -74,7 +90,7 @@ class CostumerData:
 
   def validate_gender(self, gender):
     try:
-      if (gender in ["M", "F"]):
+      if (gender in VALID_GENDERS):
         return gender
       else:
         raise Exception()
@@ -85,7 +101,7 @@ class CostumerData:
   def validate_phone(self, phone):
     try:
       phone_num = re.sub(r'[^0-9]', '', phone)
-      if (len(phone_num) >= 10):
+      if (len(phone_num) >= MIN_PHONE_LENGTH):
         return phone_num
       else:
         self.return_error(f"Phone number length is not valid")
@@ -94,24 +110,22 @@ class CostumerData:
       self.return_error(f"Phone number is not valid")
       return ""
   
-  def validate_membership(self, members):
-    membership = str(members).lower()
-    if (membership in ["basic", "silver", "gold"]):
-      if (membership == "basic"):
-        return "bronze"
-      return membership
+  def validate_membership(self, membership):
+    membership = str(membership).lower()
+    if (membership in VALID_MEMBERSHIPS):
+      return VALID_MEMBERSHIPS[membership]
     self.return_error(f"Membership is not valid")
     return ""
   
   def validate_preferred_category(self, preferred_category):
-    if (preferred_category in ["Unknown", "TBD", "To Be Determined", "N/A"]):
+    if (preferred_category in UNKNOWN_CATEGORIES):
       return ""
     return preferred_category
   
   def validate_churned(self, churned):
-    if (churned in ["Y", "yes", "1"]):
+    if (churned in VALID_CHURNED_TRUE):
       return True
-    if (churned in ["N", "no", "0"]):
+    if (churned in VALID_CHURNED_FALSE):
       return False
     self.return_error(f"Churned is not valid")
     return ""
@@ -143,10 +157,10 @@ class CostumerData:
       return [joined_at_date, last_purchase_date]
     else:
       joined_at_datetime = datetime.datetime.strptime(joined_at_date, "%Y-%m-%d")
-      if (joined_at_datetime.year > 2025):
+      if (joined_at_datetime.year > MAX_YEAR):
         self.return_error(f"Joined at date is in the future")
         joined_at_date = ""
-      elif (joined_at_datetime.year < 2000):
+      elif (joined_at_datetime.year < MIN_YEAR):
         self.return_error(f"Joined at date is before 2000")
         joined_at_date = ""
 
@@ -155,10 +169,10 @@ class CostumerData:
       last_purchase_date = ""
     else:
       last_purchase_datetime = datetime.datetime.strptime(last_purchase_date, "%Y-%m-%d")
-      if (last_purchase_datetime.year > 2025):
+      if (last_purchase_datetime.year > MAX_YEAR):
         self.return_error(f"Last purchase date is in the future")
         last_purchase_date = ""
-      elif (last_purchase_datetime.year < 2000):
+      elif (last_purchase_datetime.year < MIN_YEAR):
         self.return_error(f"Last purchase date is before 2000")
         last_purchase_date = ""
 
@@ -190,7 +204,7 @@ def validate_and_transform_data(line_chunks):
   results = []
   errors = []
   for line in line_chunks:
-    data = CostumerData(line)
+    data = CustumerData(line)
     results.append(data.data)
     errors.extend(data.errors)
   return results, errors
@@ -239,10 +253,13 @@ def print_errors(errors, result_datas_number, silent_mode = False):
   print(f"No of errors: {len(errors)}")
 
 def main():
+  # Checks if the silent mode is enabled
   parser = argparse.ArgumentParser()
   parser.add_argument("--silent", action="store_true")
   args = parser.parse_args()
   silent_mode = args.silent
+
+  # Sets up multiprocessing so it can process the data in parallel for efficiency
   cores = mp.cpu_count()
   with open("customers.csv", "r") as file:
     lines = []
@@ -256,16 +273,19 @@ def main():
       lines.append(row)
       ind += 1
     
+    # Splits the data into chunks for multiprocessing
     chunks = np.array_split(lines, cores)
     result_datas = []
     result_errors = []
     with mp.Pool(cores) as pool:
       results = pool.map(validate_and_transform_data, chunks)
 
+    # Extends the result datas and errors lists with the results from the different cores
     for result in results:
       result_datas.extend(result[0])
       result_errors.extend(result[1])
 
+  # Starts the processes for posting the data, printing the errors and writing the errors to a file simultaneously
   processes = [
     mp.Process(target=post_data, args=(result_datas,)),
     mp.Process(target=print_errors, args=(result_errors, len(result_datas), silent_mode)),
