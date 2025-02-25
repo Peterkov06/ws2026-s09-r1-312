@@ -48,7 +48,7 @@ const CustomersPage = () => {
     return (
         <div class="col-span-3 md:col-span-4 bg-[#f9f0e0] rounded-lg p-4">
             <div class="mb-4 flex flex-row flex-wrap">
-                <div class="flex gap-2 w-full">
+                <div class="flex gap-2 w-full flex-row flex-wrap">
                     <select 
                         class="border rounded px-2 py-1 max-w-fit min-w-[60px]"
                         name="searchField" 
@@ -70,7 +70,7 @@ const CustomersPage = () => {
                         value={searchQuery()}
                         onInput={(e) => setSearchQuery(e.currentTarget.value)}
                     />
-                    <div class="flex gap-2 justify-end flex-wrap">
+                    <div class="flex gap-2 md:justify-end flex-wrap">
                         <select name="sortby" id="sortby" class="border rounded px-2 py-1 max-w-fit min-w-[60px]" onChange={(e) => {
                             setSortField(e.currentTarget.value as keyof Customer);
                         }}>
