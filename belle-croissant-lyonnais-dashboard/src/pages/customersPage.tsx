@@ -1,5 +1,5 @@
 import { Button } from "../components/ui/button";
-import { createEffect, createSignal, onMount, Show } from "solid-js";
+import { createEffect, createSignal, Show } from "solid-js";
 import CustomerDataTable from "~/components/customerDataTable";
 import { customersTableColumns } from "~/components/customersTableColumns";
 import { Customer } from "~/models";
